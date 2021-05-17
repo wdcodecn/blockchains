@@ -15,6 +15,15 @@ privateKey=
 address=
 ```
 ### 使用
+
+
+- bidos挖矿
+> eg. 用主账户挖矿，10次， gas价格10gwei, 上限是50000gas
+>
+```
+python bidos.py --count=10 --gas-price=10 --gas-limit=50000
+```
+
 - pancake 挂单脚本
 > eg. 用USDT 买 KEY (需要自己编辑里面的金额，滑点参数等)
 ```

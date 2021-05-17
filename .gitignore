@@ -1,1 +1,3 @@
 venv/
+app.ini
+__pycache__/
